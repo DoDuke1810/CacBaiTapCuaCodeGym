@@ -2,6 +2,7 @@ num = int(input("Nhập số bất kì: "))
 tinhchanle = ''
 if num % 2 == 0:
     tinhchanle = 'chẵn'
-else:
+elif num % 2 == 1:
     tinhchanle = 'lẻ'
-print('Số nhập vào là số ',tinhchanle)
+else:
+    print('Số nhập vào là số',tinhchanle)
